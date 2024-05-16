@@ -19,7 +19,7 @@ Explore tutorials listed below. Write your own node but in C++ which will run tu
 
 Explore [battery indicator node](https://github.com/Gamezar/ros-training/tree/main/src/battery_indicator).
 
-You can launch by using `roslaunch battery_indicator battery_indicator.launch` after building it with catkin.
+You can launch it by using `roslaunch battery_indicator battery_indicator.launch` after building it with catkin.
 
 This node publishes a rostopic to show [battery status](https://github.com/Gamezar/ros-training/blob/main/src/battery_indicator/msg/BatteryStatus.msg). And has a rosservice, for which we can start charging a battery.
 
