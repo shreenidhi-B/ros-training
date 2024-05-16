@@ -31,4 +31,4 @@ In this assignment you will have to implement autocharging node:
 4. Publish on this topic with a rate of 2Hz.
 5. Whenever we detect that battery percentage goes below `warning_percentage` (define it using ros parameters) - publish error on topic `/error_status` with following descritpion: `Robot is about to deplete it's battery, don't assign new job`. 
 6. When battery percentage goes above `warning_percentage` - clear error from the topic.
-7. Create launch file that will also run battery_indicator node. Create a README with instructions on how to run your node
+7. Create launch file that will also run your node with battery_indicator node. Create a README with instructions on how to run your node
