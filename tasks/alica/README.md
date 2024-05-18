@@ -38,3 +38,5 @@ To see the implementation of this behaviour refer to [the code](https://github.c
 You can see that behaviour commands turtle with following method: `_turtle->moveTowardPosition`. Looking up [what is _turtle](https://github.com/rapyuta-robotics/alica/blob/2ea37c705ee3ba43575c5b7636c41a19fed74af5/supplementary/alica_turtlesim/libalica-turtlesim/include/GoToCalculatedResult.h#L23), we find out that the type is [`turtlesim::TurtleInterfaces`](https://github.com/rapyuta-robotics/alica/blob/2ea37c705ee3ba43575c5b7636c41a19fed74af5/supplementary/alica_turtlesim/include/alica_turtlesim/turtle_interfaces.hpp#L20), which is an interface that allows different implementations of turtle.
 
 So to be able to use existing functionality in Flatlad, we need to simply implement this interface. For that modify [the draft file](https://github.com/Gamezar/ros-training/blob/main/src/alica_ros_flatland_turtle/src/turtle_ros1_interfaces.cpp).
+
+After implementing it you will be still getting compilation errors. Fix them.
