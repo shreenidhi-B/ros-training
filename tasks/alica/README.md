@@ -36,9 +36,9 @@ Try playing with `rostopic` and `rosservice`. See what you can do in simulation 
 
 ### Moving turtle to it's place in a formation
 
-Let's look inside `Simulation` plan.
+Let's try to look into alica plan from previous assignment.
 
-Inside this plan we can see first state with plan `TeleportToRandomPosition`.
+Inside the `Simulation` plan we can see first state with plan `TeleportToRandomPosition`.
 
 As name suggests this plan will move turtle into random position.
 
