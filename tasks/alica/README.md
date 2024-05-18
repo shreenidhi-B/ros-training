@@ -7,7 +7,7 @@ Go through [the tutorial on alica](https://github.com/rapyuta-robotics/alica/tre
 Try out different master plans, attach screnshots/gifs of results.
 Hint: lookup launch files to find out how to set certain master plan.
 
-# Assignment 3.1: Alica turtle in Flatland
+# Assignment 3.1: Alica in Flatland
 
 In this assignment you are supposed to make alica turtlesim tutorial in [Flatland simulation](https://flatland-simulator.readthedocs.io/en/latest/overview.html).
 
