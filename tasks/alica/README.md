@@ -21,6 +21,19 @@ To complete it let's understand how alica in assignment 3.0 works with turtlesim
 
 Please keep alica designer open and navigate through it when some instance of turtlesim state machine is mentioned.
 
+### Playing with Flatland
+
+Try out running flatland simulation using following command after building flatland:
+1. Build `flatland_models`
+2. Execute:
+```bash
+roslaunch flatland_models sim.launch
+```
+
+Spawn a model using `Spawn model` button. Use turtlebot model in flatland_models directory.
+
+Try playing with `rostopic` and `rosservice`. See what you can do in simulation using them alone.
+
 ### Moving turtle to it's place in a formation
 
 Let's look inside `Simulation` plan.
