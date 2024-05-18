@@ -1,4 +1,7 @@
 build/
 devel/
 .catkin_workspace
+.catkin_tools
+catkin_tools_prebuild/
+logs/
 

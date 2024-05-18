@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>alica_ros_flatland_turtle</name>
+  <version>1.1.0</version>
+  <description>
+    Analog to alica's turtle sim but in flatland simulation
+  </description>
+  <maintainer email="you@random.org">You</maintainer>
+  <license>TODO</license>
+
+  <author>You</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>flatland_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>alica_engine</depend>
+  <depend>alica_dynamic_loading</depend>
+  <depend>alica_ros_proxy</depend>
+  <depend>alica_standard_library</depend>
+  <depend>alica_turtlesim</depend>
+  <depend>constraintsolver</depend>
+  <depend>flatland_models</depend>
+
+</package>

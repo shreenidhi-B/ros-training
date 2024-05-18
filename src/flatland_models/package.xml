@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>flatland_models</name>
+  <version>1.1.0</version>
+  <description>
+    Flatland models to run in alica turtle
+  </description>
+  <maintainer email="you@random.org">You</maintainer>
+  <license>TODO</license>
+
+  <author>You</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
