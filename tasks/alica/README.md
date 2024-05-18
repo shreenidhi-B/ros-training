@@ -39,4 +39,4 @@ You can see that behaviour commands turtle with following method: `_turtle->move
 
 So to be able to use existing functionality in Flatlad, we need to simply implement this interface. For that modify [the draft file](https://github.com/Gamezar/ros-training/blob/main/src/alica_ros_flatland_turtle/src/turtle_ros1_interfaces.cpp).
 
-After implementing it you will be still getting compilation errors. Fix them.
+After implementing it you will be still getting compilation errors. Fix them and observe turtles spawning and at least attempting to form a circle.
