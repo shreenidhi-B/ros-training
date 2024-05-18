@@ -54,4 +54,4 @@ So to be able to use existing functionality in Flatlad, we need to simply implem
 
 After implementing it you will be still getting compilation errors. Fix them.
 
-Find out how to launch simulation and turtles using `roslaunch` and observe turtles spawning and at least attempting to form a circle.
+Find out how to launch simulation and turtles using `roslaunch` (without using `flatland_models`'s launch file) and observe turtles spawning and at least attempting to form a circle.
