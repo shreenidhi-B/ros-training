@@ -1,0 +1,6 @@
+[submodule "src/alica"]
+	path = src/alica
+	url = https://github.com/rapyuta-robotics/alica.git
+[submodule "src/flatland"]
+	path = src/flatland
+	url = https://github.com/avidbots/flatland.git
