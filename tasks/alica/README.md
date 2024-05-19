@@ -65,6 +65,7 @@ Let's change the setup such that turtles will have no troubles with walls.
 1. Let's teleport turtles to the big room on the right. For that:
 - Look into the plan where robots are teleported.
 - Try to access behaviours' blackboards (on ui it is small tables near icons of behaviours) and see what you can do
+- After changes made. Export alica workspace and replace the current one with updated one.
 
 2. Let's change the constraint so that robots make a formation in this room also:
 - Look into the plan where you think formation is decided.
