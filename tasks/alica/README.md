@@ -70,7 +70,7 @@ Let's change the setup such that turtles will have no troubles with walls.
 2. Let's change the constraint so that robots make a formation in this room also:
 - Look into the plan where you think formation is decided.
 - Look into conditions of this plan
-- Find the place where the formation is decided and make a required change
+- Find the place in code where the formation is decided and make a required change
 
 Try building `alica_turtlesim` after changes and running everything again. Turtles should align in a circle in the room.
 
