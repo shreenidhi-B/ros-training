@@ -55,3 +55,21 @@ So to be able to use existing functionality in Flatlad, we need to simply implem
 After implementing it you will be still getting compilation errors. Fix them.
 
 Find out how to launch simulation and turtles using `roslaunch` (without using `flatland_models`'s launch file) and observe turtles spawning and at least attempting to form a circle.
+
+# Assignment 3.2: Improving the setup
+
+If you try running the setup with bigger number of turtles you will notice robots having trouble to form a circle because of surrounding walls.
+
+Let's change the setup such that turtles will have no troubles with walls.
+
+1. Let's teleport turtles to the big room on the right. For that:
+- Look into the plan where robots are teleported.
+- Try to access behaviours' blackboards (on ui it is small tables near icons of behaviours) and see what you can do
+
+2. Let's change the constraint so that robots make a formation in this room also:
+- Look into the plan where you think formation is decided.
+- Look into conditions of this plan
+- Find the place where the formation is decided and make a required change
+
+Try building `alica_turtlesim` after changes and running everything again. Turtles should align in a circle in the room.
+
