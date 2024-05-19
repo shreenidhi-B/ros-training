@@ -87,3 +87,6 @@ For this final assignment you will need to modify `moveTowardPosition` function 
 Few hints:
 - If you are running `env.launch` file for simulation. `map_server` will be already setup for you. Try to look into `/map` topic and what information you can get from it.
 - Planning robot path you will also need to take <b>robot footprint</b> into consideration. Find what is the footprint of the turtlebot's model used within the project and consider it in path planning. <b>Note</b>: it is ok to consider 2d footprint of robot's main body.
+
+
+Test your soluition with joining and leaving formation. Try also to expiriment with setting up different teleport positions.
