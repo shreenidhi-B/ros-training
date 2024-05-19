@@ -74,3 +74,16 @@ Let's change the setup such that turtles will have no troubles with walls.
 
 Try building `alica_turtlesim` after changes and running everything again. Turtles should align in a circle in the room.
 
+# Assignment 3.3: Dealing with walls
+
+Try running new setup with 5 robots.
+
+Try sending commands to one robot to leave formation and join formation.
+
+You may notice that robot behaves strange with a wall and may even fail to join formation again.
+
+For this final assignment you will need to modify `moveTowardPosition` function using A* algorithm.
+
+Few hints:
+- If you are running `env.launch` file for simulation. `map_server` will be already setup for you. Try to look into `/map` topic and what information you can get from it.
+- Planning robot path you will also need to take <b>robot footprint</b> into consideration. Find what is the footprint of the turtlebot's model used within the project and consider it in path planning. <b>Note</b>: it is ok to consider 2d footprint of robot's main body.
