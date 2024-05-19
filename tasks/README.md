@@ -32,3 +32,7 @@ In this assignment you will have to implement autocharging node:
 5. Whenever we detect that battery percentage goes below `warning_percentage` (define it using ros parameters) - publish error on topic `/error_status` with following descritpion: `Robot is about to deplete it's battery, don't assign new job`. 
 6. When battery percentage goes above `warning_percentage` - clear error from the topic.
 7. Create launch file that will also run your node with battery_indicator node. Create a README with instructions on how to run your node
+
+# Assignment 3. Alica
+
+Look in [dedicated folder](https://github.com/Gamezar/ros-training/tree/main/tasks/alica) for assignments
