@@ -11,7 +11,7 @@ Explore tutorials listed below. Write your own node but in C++ which will run tu
 - Add ros service `/move_straight` with parameters `distance` and `speed`
 - Add launch file
 
-3. [Moving to a goal](http://wiki.ros.org/turtlesim/Tutorials/Go%20to%20Goal)
+2. [Moving to a goal](http://wiki.ros.org/turtlesim/Tutorials/Go%20to%20Goal)
 - Add ros service `/move_to` with parameters `x`, `y`, `tolerance`
 - Add launch file
 
