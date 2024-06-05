@@ -14,9 +14,11 @@ class BatteryMonitor:
         if req.data and self.timer_plug is None:
             self.timer_plug = rospy.Timer(rospy.Duration(0.1), self.update_battery_plugged)
             self.timer_unplug.shutdown()
+            self.timer_unplug = None
             return SetBoolResponse(True, "Charging started")
         elif not req.data and self.timer_plug is not None:
             self.timer_plug.shutdown()
+            self.timer_plug = None
             self.timer_unplug = rospy.Timer(rospy.Duration(0.2), self.update_battery_unplugged)
             return SetBoolResponse(True, "Charging stopped")
         return SetBoolResponse(False, "No state change required")
